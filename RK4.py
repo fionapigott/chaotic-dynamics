@@ -44,7 +44,7 @@ def equation(pos, time):
 #        'h': length of the time step
 #        'x': current position vector
 #        't': current time
-# Output: '(x,t)': tuple of 'x' (new position vector) 
+# Output: '(x,t)': list of 'x' (new position vector) 
 #				   and 't' (new time)
 def step(diffeq, h, x, t):
 	
